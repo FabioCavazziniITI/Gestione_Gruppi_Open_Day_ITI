@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" media="all" href="css/CssHome.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="OpenDay.js">
+        </script>
+        <title> Iti copernico orientamento </title>
+    </head>
+    <body>
+        <div id = "Contenitore">
+            <div id = "Titolo">
+				<p class = "ModTitolo">
+                    Orientamento:
+                    <img src="Logo.jpg" class="ModificaLogo">
+                </p>
+            </div>
+
+            <div id = "Immagini">
+                <form action="php/pagina_invisibile.php" method="post">
+
+                    <img id="rosso" src="img/rosso.jpg" onClick="contatore('rosso')" class="ModImmagini">
+                    <input type="hidden" name="hRosso" id="hRosso">
+                    <label name="pRosso" id="pRosso" > </label>
+                    
+                    <img id="verde" src="img/verde.jpg" onClick="contatore('verde')" class="ModImmagini">
+                    <input type="hidden" name="hVerde" id="hVerde">
+                    <label name="pVerde" id="pVerde" > </label>
+                    
+                    <img id="blu" src="img/blu.jpg" onClick="contatore('blu')" class="ModImmagini">
+                    <input type="hidden" name="hBlu" id="hBlu">
+                    <label name="pBlu" id="pBlu" > </label>
+                    
+                    <img id="giallo" src="img/giallo.jpg" onClick="contatore('giallo')" class="ModImmagini">
+                    <input type="hidden" name="hGiallo" id="hGiallo">
+                    <label name="pGiallo" id="pGiallo" > </label>
+                    
+                    <img id="viola" src="img/rosa.jpg" onClick="contatore('viola')"class="ModImmaginiUltima" >
+                    <input type="hidden" name="hViola" id="hViola">
+                    <label name="pViola" id="pViola" > </label>
+
+                    <br><br><br>
+                    <input type="submit" value="Invia i dati" class = "ModBottone">
+                </form> 
+            </div>
+        </div>
+    </body>
+</html>

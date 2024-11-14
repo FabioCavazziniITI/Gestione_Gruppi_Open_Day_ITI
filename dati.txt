@@ -1,0 +1,1 @@
+{"valueRosso":null,"valueVerde":null,"valueBlu":null,"valueViola":null,"valueGiallo":null}

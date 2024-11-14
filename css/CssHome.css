@@ -1,0 +1,353 @@
+#Contenitore{width: 100%; height: 100%; float: left;}
+
+#Titolo{width: 100%; height: 10%; float: left;}
+
+#Immagini{
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ModTitolo{
+    font-size: 42px;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.ModImmagini{
+    width: 31%;
+    height: 30%;
+    border-radius: 20%;
+    margin: -1% 8.5% 2%;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+.ModImmaginiUltima{
+    width: 32%;
+    height: 30%;
+    border-radius: 20%;
+    margin: -1% 8.7% 10% 32%;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+.ModificaLogo{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border-radius: 25%;
+	margin-left: 1%;
+}
+
+#pRosso{
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -19%;
+    color: white;
+}
+
+#pVerde{
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -19%;
+    color: white;
+}
+
+#pBlu{
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -19%;
+    color: white;
+}
+
+#pGiallo{
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -19%;
+    color: white;
+}
+
+#pViola{
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -19%;
+    color: white;
+}
+
+.ModBottone{
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    margin-top: 7%;
+    margin-right: 45%;
+    border-radius: 15%;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: dashed red;
+    cursor: pointer;
+    float: right;
+}
+
+@media (max-width: 1700px) {
+    .ModTitolo{
+        font-size: 45px;
+        height: 20%;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        margin: auto;
+        margin-top: 1%;
+    }
+
+    .ModImmagini{
+        width: 30%;
+        height: 25%;
+        border-radius: 20%;
+        margin: -2% 8.5% 10%;
+        border-style: solid;
+        border-width: 3px;
+    }
+
+    .ModImmaginiUltima{
+        width: 30%;
+        height: 25%;
+        border-radius: 20%;
+        margin: -3% 8.7% 5% 32%;
+        border-style: solid;
+        border-width: 3px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .ModTitolo{
+        font-size: 35px;
+        height: 20%;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        margin: auto;
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 900px) {
+    .ModTitolo{
+        font-size: 25px;
+        height: 20%;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        margin: auto;
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 700px) {
+    .ModTitolo{
+        font-size: 32px;
+        height: 20%;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        margin: auto;
+        margin-top: 1%;
+    }
+
+    .ModImmagini{
+        width: 30%;
+        height: 25%;
+        border-radius: 20%;
+        margin: 0 8.5% 10%;
+        border-style: solid;
+        border-width: 3px;
+    }
+
+    .ModImmaginiUltima{
+        width: 30%;
+        height: 25%;
+        border-radius: 20%;
+        margin: 0 8.7% 5% 32%;
+        border-style: solid;
+        border-width: 3px;
+    }
+}
+
+@media (max-width: 1058px){
+    #pRosso{
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 9%;
+        margin-left: -20%;
+        color: white;
+    }
+
+    #pVerde{
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 9%;
+        margin-left: -20%;
+        color: white;
+    }
+    
+    #pBlu{
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 9%;
+        margin-left: -20%;
+        color: white;
+    }
+    
+    #pGiallo{
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 9%;
+        margin-left: -20%;
+        color: white;
+    }
+    
+    #pViola{
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 9%;
+        margin-left: -20%;
+        color: white;
+    }
+
+    .ModBottone{
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+        margin-top: 0%;
+        margin-right: 45%;
+        border-radius: 15%;
+        background-color: white;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        border: dashed red;
+        cursor: pointer;
+        float: right;
+    }
+}
+
+@media (max-width: 450px){
+    .ModImmagini{
+		width: 25%;
+		height: 20%;
+		border-radius: 20%;
+		margin: -1% 8% 10%;
+		border-style: solid;
+		border-width: 3px;
+		cursor: pointer;
+	}
+	
+	.ModImmaginiUltima{
+        width: 30%;
+        height: 14%;
+        border-radius: 20%;
+        margin: 0 8% 5% 25%;
+        border-style: solid;
+        border-width: 3px;
+    }
+	
+	.ModificaLogo{
+		width: 50px;
+		height: 40px;
+		position: absolute;
+		border-radius: 25%;
+		margin-left: 1%;
+	}
+
+	#pRosso{
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -20%;
+        color: white;
+    }
+
+    #pVerde{
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -20%;
+        color: white;
+    }
+    
+    #pBlu{
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -20%;
+        color: white;
+    }
+    
+    #pGiallo{
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -20%;
+        color: white;
+    }
+    
+    #pViola{
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: -21%;
+        color: white;
+    }
+
+    .ModBottone{
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+        margin-top: 2%;
+        margin-right: 40%;
+        border-radius: 15%;
+        background-color: white;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        border: dashed red;
+        cursor: pointer;
+        float: right;
+    }
+}
