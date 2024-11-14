@@ -13,7 +13,7 @@
         }
     ?>
     <head>
-        <link rel="stylesheet" type="text/css" media="all" href="../css/CssIndexArancione.css">
+        <link rel="stylesheet" type="text/css" media="all" href="../css/CssIndexGiallo.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Percorso2</title>
         <script>
