@@ -47,7 +47,7 @@
             <div id = "Questinario">
                 <form action="pagina_invisibile2.php" method="post">
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id0"> <span class = "ModTesto" id="p0"><b>Elettronica/Telecomunicazioni</b><br>lab. 16/17<br>5 minuti + 5 minuti</span><br><br><br>
-                    <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id1"> <span class = "ModTesto" id="p1"><b>Elettrotecnica</b><br>OE secondopiano<br>5 minuti</span><br><br><br>
+                    <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id1"> <span class = "ModTesto" id="p1"><b>Elettrotecnica</b><br>OE secondo piano<br>5 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id2"> <span class = "ModTesto" id="p2"><b>Meccanica/Energia</b><br>lab 49/Officina Meccanica<br>5 minuti + 5 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id3"> <span class = "ModTesto" id="p3"><b>Chimica/Biotecnologie</b><br>lab. 38/ACH<br>tot 10 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id4"> <span class = "ModTesto" id="p4"><b>Ottica</b><br>lab. 11<br>5 minuti</span><br><br><br>

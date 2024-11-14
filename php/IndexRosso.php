@@ -50,7 +50,7 @@
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id1"> <span class = "ModTesto" id="p1"><b>Elettronica/Telecomunicazioni</b><br>lab. 16/17<br>5 minuti + 5 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id2"> <span class = "ModTesto" id="p2"><b>Elettrotecnica</b><br>OE scondo piano<br>5 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id3"> <span class = "ModTesto" id="p3"><b>Meccanica/Energia</b><br>lab. 49/Officinia Meccanica<br>5 minuti + 5 minuti</span><br><br><br>
-                    <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id4"> <span class = "ModTesto" id="p4"><b>Chimica/Biotecnologie</b><br>lab. 38/ACH<br>tot 10 min</span><br><br><br>
+                    <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id4"> <span class = "ModTesto" id="p4"><b>Chimica/Biotecnologie</b><br>lab. 38/ACH<br>tot 10 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id5"> <span class = "ModTesto" id="p5"><b>Ottica</b><br>lab. 11<br>5 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id6"> <span class = "ModTesto" id="p6"><b>Moda</b><br>aula 02<br>5 minuti</span><br><br><br>
                     <input onchange="cambiaeInvia()" type="radio" class="ModCheckbox" name="Rad" id="id7"> <span class = "ModTesto" id="p7"><b>Corso Quadriennale</b><br>aula 10<br>5 minuti</span>
