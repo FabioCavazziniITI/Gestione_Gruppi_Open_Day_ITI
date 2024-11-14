@@ -21,7 +21,7 @@
             	margin-left: 15px;
             }
             .ModCheckbox {
-            	margin-bottom: 15px;
+            	margin-bottom: 20px;
             }
         </style>
         <script>
